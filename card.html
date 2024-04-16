@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card con Immagine</title>
+     <style>
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+            margin: 10px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .card > div {
+            padding: 1px;
+            border: 2px solid black;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0;
+        }
+
+        .card ul li {
+            margin-bottom: 5px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div>
+        <img
+          src="https://image.api.playstation.com/vulcan/img/cfn/11307kmx1_n3t2syUTAhfJwoB9J-ABYHTOcp73oav14qv_5s_Z_CrAritYTHnxzHE4WtEcIunInX0E30PvmuFUu8m2YfkkQc.png?w=620&thumb=false"
+          alt="Kingdom Heart"
+        />
+        <h2>Titolo Card</h2>
+        <p>
+          Kingdom Hearts III è un videogioco action RPG sviluppato e pubblicato
+          da Square Enix per PlayStation 4, Xbox One, Microsoft Windows e
+          Nintendo Switch. È il decimo titolo della serie Kingdom Hearts, sequel
+          di Kingdom Hearts II e capitolo finale della "saga di Xehanort"
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li>Kingdom hearts</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Kingdom hearts 2.5</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>Kingdom hearts 3</li>
+        </ul>
+      </div>
+      <div>
+        <a href="#">Card Link</a>
+        <a href="#">Another Link</a>
+      </div>
+    </div>
+  </body>
+</html>
